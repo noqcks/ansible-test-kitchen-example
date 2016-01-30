@@ -1,0 +1,20 @@
+---
+driver:
+  # using docker to test
+  name: docker
+  privileged: true
+
+provisioner:
+  # use an ansible playbook to provision our server
+  name: ansible_playbook
+  # name of the host
+  hosts: test-kitchen
+  # list of ansible galaxy requirements from the roles meta/main.yml
+  requirements_path: dependencies.yml
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  # suites found at /test/integration/$test-name
+  - name: default
