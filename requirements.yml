@@ -1,0 +1,7 @@
+# find the dependencies to list in meta/main.
+# If there are non, remove this file and the reference to it in .kitchen.yml
+# Otherwise should look something like below:
+#
+---
+# - src: noqcks.apt-repository
+
