@@ -1,0 +1,11 @@
+---
+sudo: required
+# docker is required to run tests
+services: docker
+
+install:
+  - bundle install
+
+script:
+  # run kitchen tests (destroy, create, converge, setup, verify and destroy)
+  - kitchen test
