@@ -28,7 +28,7 @@ Describes what to run our serverspec tests on (docker, vagrant, ec2), and how to
 
 This is the ansible playbook we run to provision our hosts. The most basic function is just installing our ansible role on the host machine.
 
-#### 4. `/test/integration/serverspec/localhost/default_spec.rb`
+##### 4. `/test/integration/serverspec/localhost/default_spec.rb`
 
-This is the serverspec file that contains the tests to run against our hosts. For resource types see the (documentation)[http://serverspec.org/resource_types.html].
+This is the serverspec file that contains the tests to run against our hosts. For resource types see the [documentation](http://serverspec.org/resource_types.html).
 
