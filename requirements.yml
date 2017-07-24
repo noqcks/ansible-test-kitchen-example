@@ -4,5 +4,4 @@
 #
 ---
 # - src: noqcks.apt-repository
- - src: debops.debops
-
+ - src: debops.nginx
