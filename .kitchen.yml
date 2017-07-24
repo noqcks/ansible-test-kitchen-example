@@ -11,7 +11,7 @@ provisioner:
   hosts: test-kitchen
   # list of ansible galaxy requirements from the roles meta/main.yml
   # add this if you have galaxy dependencies
-  #requirements_path: dependencies.yml
+  requirements_path: dependencies.yml
 
 platforms:
   - name: ubuntu-14.04
