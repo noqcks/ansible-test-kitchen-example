@@ -12,6 +12,9 @@ provisioner:
   # list of ansible galaxy requirements from the roles meta/main.yml
   requirements_path: requirements.yml
 
+verifier:
+  name: inspec
+  
 platforms:
   - name: ubuntu-14.04
 
