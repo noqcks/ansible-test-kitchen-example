@@ -1,4 +1,4 @@
-## Ansible Test Kitchen Example 
+## Ansible Test Kitchen Example
 
 We can use [test-kitchen](https://github.com/test-kitchen/test-kitchen) with [serverspec](http://serverspec.org/) to run some basic tests for our ansible roles.
 
