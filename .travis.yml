@@ -1,5 +1,4 @@
 ---
-#dist: precise
 sudo: required
 # docker is required to run tests
 services: docker
