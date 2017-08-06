@@ -1,6 +1,6 @@
 ## Ansible Test Kitchen Example
 
-[![Build Status Master](https://travis-ci.org/bob5ec/ansible-test-kitchen-exmaple.svg?branch=master)](https://travis-ci.org/bob5ec/ansible-test-kitchen-exmaple)
+[![Build Status Master](https://travis-ci.org/bob5ec/ansible-test-kitchen-example.svg?branch=master)](https://travis-ci.org/bob5ec/ansible-test-kitchen-example)
 
 We can use [test-kitchen](https://github.com/test-kitchen/test-kitchen) with [serverspec](http://serverspec.org/) to run some basic tests for our ansible roles.
 
