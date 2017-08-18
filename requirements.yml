@@ -4,4 +4,5 @@
 #
 ---
 # - src: noqcks.apt-repository
-
+# - src: debops.nginx
+ - src: jdauphant.nginx

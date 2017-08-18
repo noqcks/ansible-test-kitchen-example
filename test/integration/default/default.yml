@@ -4,5 +4,9 @@
   remote_user: root
 
   roles:
+  - {role: jdauphant.nginx,
+     nginx_http_params: ["sendfile on", "access_log /var/log/nginx/access.log"]
+                          }
     # name of role to test
-    - role: ansible-$role
+    #- role: ansible-$role
+#    - role: debops.nginx
