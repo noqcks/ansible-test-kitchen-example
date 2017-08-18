@@ -2,7 +2,10 @@
 driver:
   # using docker to test
   name: docker
+  instance_name: test
+  use_sudo: false
   privileged: true
+  remove_images: true
 
 provisioner:
   # use an ansible playbook to provision our server
